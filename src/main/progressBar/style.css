@@ -1,0 +1,32 @@
+.progress-bar-container {
+  position: relative;
+  background-color: rgb(188, 185, 185);
+  border: 1px solid black;
+  height: 30px;
+  margin-bottom: 12px;
+  width: 300px;
+}
+
+.progress-bar-container .progress-bar {
+  position: absolute;
+  height: 100%;
+  background-color: rgb(200, 91, 200);
+}
+
+#playAnimation {
+  /* animation-iteration-count: 2; */
+  animation: progress-animate 4s;
+}
+
+@keyframes progress-animate {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.run-button {
+  display: flex;
+}

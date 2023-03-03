@@ -1,0 +1,13 @@
+.container {
+  background-color: rgb(22, 21, 21);
+
+  --size: 4;
+  height: 650px;
+  display: grid;
+  grid-template-columns: repeat(var(--size), 1fr);
+  grid-template-rows: repeat(var(--size), 1fr);
+  gap: 3px;
+}
+.pixel {
+  background-color: rgb(253, 249, 249);
+}
